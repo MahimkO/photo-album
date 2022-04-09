@@ -1,0 +1,20 @@
+<form name="photoForm">
+  <div class="mb-3">
+    <label for="photoTitle" class="form-label">Title</label>
+    <input type="text" class="form-control" name="title" id="photoTitle">
+  </div>
+  <div class="mb-3">
+      <label for="photoImg" class="form-label">img</label>
+      <input type="file" class="form-control" id="photoImg" name="img">
+  </div>
+
+  <select class="form-select" id="photoAlbumId" name="albumId" aria-label="Default select example">
+    {{#each albums}}
+      <option value="{{this.id}}">{{this.title}}</option>
+    {{/each}}
+  </select>
+  <br>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
+<script src="./js/photo.js"></script>

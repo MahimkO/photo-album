@@ -1,0 +1,11 @@
+<div>
+  {{#if user}}
+    <div class="albums_container">
+      {{#each albums}}
+        <div class="album_item" data-id="{{this.id}}">{{this.title}}</div>
+      {{/each}}
+    </div>
+  {{/if}}
+</div>
+
+<script src="./js/home.js"></script>

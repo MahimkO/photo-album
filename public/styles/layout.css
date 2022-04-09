@@ -1,0 +1,26 @@
+.layout_wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.layout_container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.layout_content {
+  flex-grow: 1;
+}
+
+.footer_p {
+  text-align: center;
+}
+
+.loged_user {
+  color: blueviolet !important;
+  font-weight: 600;
+  font-style: italic;
+  /* font-size: 27px; */
+}
