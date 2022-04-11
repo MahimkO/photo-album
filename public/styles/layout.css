@@ -24,3 +24,21 @@
   font-style: italic;
   /* font-size: 27px; */
 }
+
+.albums_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.album_item {
+  height: 250px;
+  width: 250px;
+  background-color: lightgray;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 250px;
+  border-radius: 15px;
+  font-family: 'Beau Rivage', cursive;
+  font-size: 35px;
+}
